@@ -1,0 +1,69 @@
+html {
+	background-color: #141414;
+	color: #FFF;
+}
+
+input, textarea, select { color: #141414; }
+
+table { 
+	width:100%;
+	color: #141414;
+}
+
+table td, table th { padding: .25rem; }
+
+table tr:first-child { 
+	background-color: #E50914;
+	color: #FFF;
+}
+
+table tr:nth-child(even) { background-color: #666; }
+
+table tr:nth-child(odd):not(:first-child) { background-color: #999; }
+
+.logo {
+	font-size: 3rem;
+	color: #E50914;
+}
+
+.menu a {
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #E50914;
+}
+
+.menu a:hover { color: #FFF; }
+
+.button {
+	padding: .5rem 1rem;
+	background-color: #E50914;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.button:hover { opacity: .75; }
+
+.add { background-color: #0B0; }
+
+.edit { background-color: #0871B2; }
+
+.delete { background-color: #D23641; }
+
+.show { background-color: #141414; }
+
+.error { 
+	background-color: #E50914;
+	color: #FFF;
+}
+
+.img-404 {
+	max-width: 140px;
+	height: auto;
+}
+
+.poster { max-width: 200px; }
+
+.trailer iframe {
+	width: 560px;
+	height: 315px;
+}
